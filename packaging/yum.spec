@@ -21,8 +21,7 @@ BuildRequires:  python-gpgme
 BuildRequires:  python >= 2.4
 BuildRequires:  python-iniparse
 BuildRequires:  python-nose
-BuildRequires:  python-sqlite
-BuildRequires:  python-urlgrabber >= 3.9.0-8
+BuildRequires:  python-urlgrabber >= 3.9.0
 BuildRequires:  rpm >= 4.10.0
 BuildRequires:  python-rpm
 BuildRequires:  yum-metadata-parser >= 1.1.0
@@ -30,7 +29,7 @@ Requires:       python-gpgme
 Requires:       python >= 2.7
 Requires:       python-iniparse
 Requires:       python-sqlite
-Requires:       python-urlgrabber >= 3.9.0-8
+Requires:       python-urlgrabber >= 3.9.0
 Requires:       rpm >= 4.10.0
 Requires:       python-rpm
 Requires:       yum-metadata-parser >= 1.1.0

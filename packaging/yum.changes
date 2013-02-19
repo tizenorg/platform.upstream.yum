@@ -1,3 +1,6 @@
+* Tue Feb 19 2013 Anas Nashif <anas.nashif@intel.com> submit/trunk/20130219.174913@7875939
+- Do not require python-sqlite
+
 * Tue Feb 19 2013 Anas Nashif <anas.nashif@intel.com> upstream/3.4.3@16692f6
 - Initial import
 
