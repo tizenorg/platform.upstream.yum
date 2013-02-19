@@ -28,7 +28,6 @@ BuildRequires:  yum-metadata-parser >= 1.1.0
 Requires:       python-gpgme
 Requires:       python >= 2.7
 Requires:       python-iniparse
-Requires:       python-sqlite
 Requires:       python-urlgrabber >= 3.9.0
 Requires:       rpm >= 4.10.0
 Requires:       python-rpm
