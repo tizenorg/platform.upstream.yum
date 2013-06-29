@@ -13,6 +13,7 @@ Summary:        RPM package installer/updater/manager
 Group:          System/Base
 Source0:        http://yum.baseurl.org/download/3.4/%{name}-%{version}.tar.gz
 Source1:        yum.conf
+Source1001: 	yum.manifest
 
 Url:            http://yum.baseurl.org/
 BuildRequires:  gettext
@@ -41,6 +42,7 @@ automatically, prompting the user for permission as necessary.
 
 %prep
 %setup -q
+cp %{SOURCE1001} .
 
 %build
 make
@@ -88,6 +90,7 @@ chmod +x %{buildroot}/%{python_sitelib}/rpmUtils/*.py
 
 
 %files -f %{name}.lang
+%manifest %{name}.manifest
 %defattr(-, root, root, -)
 %license  COPYING
 %config(noreplace) %{_sysconfdir}/yum.conf
